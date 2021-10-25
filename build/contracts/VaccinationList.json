@@ -1,0 +1,216 @@
+{
+  "contractName": "VaccinationList",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "vaccinCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"vaccinCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/MTECH-BITS-PILANI/Block Chain Technologies and Systems/Assignment/contracts/VaccinationList.sol\":\"VaccinationList\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/MTECH-BITS-PILANI/Block Chain Technologies and Systems/Assignment/contracts/VaccinationList.sol\":{\"keccak256\":\"0x2f8329080a5a8ca8285ea76ee71978f6b72d8e868937904ac2eed7731d923ef1\",\"urls\":[\"bzz-raw://e0ef27bafa25133e118467adc72afe2a1e9e6b296d33aa430696cc55504bacd5\",\"dweb:/ipfs/QmNazqA4SBWeuuMoiw1r7pwyQSHnSZPjZ5pMSBXe2g25iU\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b506084806100226000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063dc2fe77c14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820c2e11763aaaaf5a0077e11ae773010be22a759cc2c8cfa1d08612c81af6885b564736f6c634300050c0032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063dc2fe77c14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820c2e11763aaaaf5a0077e11ae773010be22a759cc2c8cfa1d08612c81af6885b564736f6c634300050c0032",
+  "sourceMap": "27:60:1:-;;;82:1;58:25;;27:60;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:60:1;;;;;;;",
+  "deployedSourceMap": "27:60:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:60:1;;;;;;;;;;;;;;;;;;;58:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract VaccinationList{\r\n    uint public vaccinCount=0;\r\n}",
+  "sourcePath": "D:/MTECH-BITS-PILANI/Block Chain Technologies and Systems/Assignment/contracts/VaccinationList.sol",
+  "ast": {
+    "absolutePath": "/D/MTECH-BITS-PILANI/Block Chain Technologies and Systems/Assignment/contracts/VaccinationList.sol",
+    "exportedSymbols": {
+      "VaccinationList": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "VaccinationList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "vaccinCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "58:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "58:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "82:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "27:60:1"
+      }
+    ],
+    "src": "0:87:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/MTECH-BITS-PILANI/Block Chain Technologies and Systems/Assignment/contracts/VaccinationList.sol",
+    "exportedSymbols": {
+      "VaccinationList": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "VaccinationList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "vaccinCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "58:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "58:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "82:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "27:60:1"
+      }
+    ],
+    "src": "0:87:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x71A5CB17982Cc3Ef067d9633c00eC6B9B01F186f",
+      "transactionHash": "0xe52e9fa91caf78d3c06ba715f3aee6f9e2e89e1a9ccf6f085e33ca99abb28fd6"
+    }
+  },
+  "schemaVersion": "3.0.18",
+  "updatedAt": "2021-10-25T09:55:27.184Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
